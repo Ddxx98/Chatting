@@ -1,0 +1,30 @@
+.users-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('/users-background.jpg') no-repeat center center/cover;
+}
+
+.users-page h1 {
+    margin-bottom: 20px;
+}
+
+.users-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.users-page li {
+    margin-bottom: 10px;
+}
+
+.users-page a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.users-page a:hover {
+    text-decoration: underline;
+}
